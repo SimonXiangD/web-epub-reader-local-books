@@ -1,0 +1,21 @@
+# Cloned upstream project (fetched by setup.ps1)
+/thorium-web/
+
+# Downloaded binaries (fetched by setup.ps1)
+/tools/
+
+# Personal books — only the IDPF sample is tracked
+/books/*
+!/books/accessible_epub_3.epub
+!/books/README.md
+
+# Node / pnpm / Next.js leftovers (in case scripts run in repo root)
+node_modules/
+.next/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

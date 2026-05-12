@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2026 simonxiangd
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+NOTICE: This repository is glue code only. It downloads and orchestrates
+the following third-party projects, which retain their own copyrights and
+licenses:
+
+  - Thorium Web  (edrlab/thorium-web)  — BSD-3-Clause
+  - Readium CLI  (readium/cli)         — BSD-3-Clause
+
+When you run setup.ps1, those projects are fetched into ./thorium-web/ and
+./tools/readium/ respectively. Their full LICENSE files travel with them and
+must be retained.
+
+The sample publication bundled in ./books/accessible_epub_3.epub originates
+from the IDPF/epub3-samples project and is provided here for testing purposes
+only, under the terms granted by its publishers.
