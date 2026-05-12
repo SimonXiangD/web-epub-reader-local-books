@@ -76,6 +76,23 @@ To verify the pipeline before adding your own books, the IDPF
 
 ---
 
+## Stopping and restarting
+
+`./start.ps1` launches the two servers into **their own PowerShell windows**.
+Those windows are the servers — they are not tied to your editor, terminal,
+or whatever shell you invoked `start.ps1` from. You can close everything else
+and keep reading.
+
+- **To stop the servers**, close those two windows (or `Ctrl+C` inside each).
+- **To restart later**, just run `./start.ps1` again. `setup.ps1` is a
+  one-time step; you only re-run it if you wipe `thorium-web/` or
+  `tools/readium/` or want to pull the latest Thorium Web.
+
+The reader URLs only work while both servers are running. Bookmarking a URL
+is fine — it'll work again the next time you start the servers.
+
+---
+
 ## Adding your own books
 
 1. Drop a `.epub` (or any format the Readium CLI supports — PDF, CBZ) into
